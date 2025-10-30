@@ -1,4 +1,11 @@
 print("primer archivo python")
 nombre = input("¿Cómo te llamas? ")
-edad = input ("dime tu edad")
-print(f"¡Hola, {nombre}! Bienvenido/a al mundo de la automatización con Python. Según me has indicado tiene {edad} años")
+edad = input ("Dime tu edad ")
+
+numero = float(input("ingresa un numero: "))
+if numero > 0: 
+    print("El numero es Positivo")
+elif numero < 0: 
+    print("El numero es Negativo")
+else:
+    print("El numero es cero")
